@@ -13,13 +13,45 @@
 <body>
 
 	<form>
-		<label>Codigo</label> <input type="text" id="txtCodigo" /> <br> <label>Nombre</label>
-		<input type="text" id="txtNombre" /> <br> <label>Nivel</label> <input
-			type="text" id="txtNivel" /> <br> <label>Profesor</label> <input
-			type="text" id="txtProfesor" />
+		<label>Codigo</label> <input type="text" id="txtCodigo" /> <br>
+		<label>Nombre</label> <input type="text" id="txtNombre" /> <br>
+		<label>Nivel</label> <input type="text" id="txtNivel" /> <br> <label>Profesor</label>
+		<input type="text" id="txtProfesor" />
 
 		<button id="btnProcesar" type="button" class="btn btn-warning">Procesar</button>
+		<button id="btnLimpiar" type="button" class="btn btn-danger">Limpiar</button>
+		<button id="btnConsultar" type="button" class="btn btn-success">Consultar</button>
 	</form>
+
+	<table class="table table-dark">
+		<thead>
+			<tr>
+				<th scope="col">Codigo</th>
+				<th scope="col">Nombre</th>
+				<th scope="col">Nivel</th>
+				<th scope="col">Profesor</th>
+			</tr>
+		</thead>
+		<tbody id="table_datos">
+		</tbody>
+	</table>
+	
+	<table class="table  table-bordered">
+		<thead>
+			<tr>
+				<th scope="col">Codigo</th>
+				<th scope="col">Nombre</th>
+				<th scope="col">Nivel</th>
+				<th scope="col">Profesor</th>
+			</tr>
+		</thead>
+		<tbody id="table_datos2">
+		</tbody>
+	</table>
+
+
+
+
 
 </body>
 <script src="https://code.jquery.com/jquery-3.7.1.js"
@@ -34,7 +66,7 @@
 	integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
 	crossorigin="anonymous"></script>
 
-<script src="assets/js/cursos.js?v=1.1" type="text/javascript"></script>
+<script src="assets/js/cursos.js?v=1.30" type="text/javascript"></script>
 
 </html>
 

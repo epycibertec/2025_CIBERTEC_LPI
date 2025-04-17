@@ -27,26 +27,31 @@ $(document).ready(function() {
 
 		$.get("CursosServlet", {}, function(respuesta) {
 			console.log(respuesta);
-			
-			
-			$.each(respuesta, function(indice, item){
-				alert(
-					item.codigo +" - "+ item.nombre
-				);
+			let fila = "";
+			$.each(respuesta, function(indice, item) {
+				fila += "<tr>";
+				fila += "<td>" + item.codigo + "</td>";
+				fila += "<td>" + item.nombre + "</td>";
+				fila += "<td>" + item.nivel + "</td>";
+				fila += "<td>" + item.profesor + "</td>";
+				fila += "</tr>";
 			});
+
+			$("#table_datos").html(fila);
 			
-			
-			
-			
+			let fila2 = "";
+			$.each(respuesta, function(indice, item) {
+				fila2 += `<tr>
+							<td>${item.codigo}</td>
+							<td>${item.nombre}</td>
+							<td>${item.nivel}</td>
+							<td>${item.profesor}</td>
+						</tr>`;
+			});
+			$("#table_datos2").html(fila2);
+
 		});
-
-
 	});
-
-
-
-
-
 
 });
 
