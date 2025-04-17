@@ -21,6 +21,7 @@
 		<button id="btnProcesar" type="button" class="btn btn-warning">Procesar</button>
 		<button id="btnLimpiar" type="button" class="btn btn-danger">Limpiar</button>
 		<button id="btnConsultar" type="button" class="btn btn-success">Consultar</button>
+		<button id="btnReporte" type="button" class="btn btn-danger">Reporte</button>
 	</form>
 
 </body>
