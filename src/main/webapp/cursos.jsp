@@ -30,6 +30,7 @@
 				<th scope="col">Nombre</th>
 				<th scope="col">Nivel</th>
 				<th scope="col">Profesor</th>
+				<th>Opciones</th>
 			</tr>
 		</thead>
 		<tbody id="table_datos">
@@ -43,6 +44,7 @@
 				<th scope="col">Nombre</th>
 				<th scope="col">Nivel</th>
 				<th scope="col">Profesor</th>
+				<th>Opciones</th>
 			</tr>
 		</thead>
 		<tbody id="table_datos2">

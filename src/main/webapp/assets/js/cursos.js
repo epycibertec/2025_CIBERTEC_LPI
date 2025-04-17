@@ -46,6 +46,10 @@ $(document).ready(function() {
 							<td>${item.nombre}</td>
 							<td>${item.nivel}</td>
 							<td>${item.profesor}</td>
+							<td>
+								<button class='btn btn-danger'>Eliminar</button>
+								<button class='btn btn-warning'>Editar</button>
+							<td>
 						</tr>`;
 			});
 			$("#table_datos2").html(fila2);
