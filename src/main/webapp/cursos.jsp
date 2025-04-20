@@ -12,50 +12,72 @@
 </head>
 <body>
 
-	<form>
-		<label>Codigo</label> <input type="text" id="txtCodigo" /> <br>
-		<label>Nombre</label> <input type="text" id="txtNombre" /> <br>
-		<label>Nivel</label> <input type="text" id="txtNivel" /> <br> <label>Profesor</label>
-		<input type="text" id="txtProfesor" />
+	<div class="container-fluid">
 
-		<button id="btnProcesar" type="button" class="btn btn-warning">Procesar</button>
-		<button id="btnLimpiar" type="button" class="btn btn-danger">Limpiar</button>
-		<button id="btnConsultar" type="button" class="btn btn-success">Consultar</button>
-	</form>
+		<div class="row">
+			<div class="col-md-4">
+				<form>
+					<div class="form-group">
+						<label for="txtCodigo">Codigo</label> <input type="text"
+							class="form-control" id="txtCodigo">
+					</div>
+					<div class="form-group">
+						<label for="txtNombre">Nombre</label> <input type="text"
+							class="form-control" id="txtNombre">
+					</div>
 
-	<table class="table table-dark">
-		<thead>
-			<tr>
-				<th scope="col">Codigo</th>
-				<th scope="col">Nombre</th>
-				<th scope="col">Nivel</th>
-				<th scope="col">Profesor</th>
-				<th>Opciones</th>
-			</tr>
-		</thead>
-		<tbody id="table_datos">
-		</tbody>
-	</table>
-	
-	<table class="table  table-bordered">
-		<thead>
-			<tr>
-				<th scope="col">Codigo</th>
-				<th scope="col">Nombre</th>
-				<th scope="col">Nivel</th>
-				<th scope="col">Profesor</th>
-				<th>Opciones</th>
-			</tr>
-		</thead>
-		<tbody id="table_datos2">
-		</tbody>
-	</table>
+					<div class="form-group">
+						<label for="txtNivel">Nivel</label> <input type="text"
+							class="form-control" id="txtNivel">
+					</div>
+					<div class="form-group">
+						<label for="txtProfesor">Profesor</label> <input type="text"
+							class="form-control" id="txtProfesor">
+					</div>
+
+					<button id="btnProcesar" type="button" class="btn btn-warning">Procesar</button>
+					<button id="btnLimpiar" type="button" class="btn btn-danger">Limpiar</button>
+					<button id="btnConsultar" type="button" class="btn btn-success">Consultar</button>
+				</form>
+
+
+			</div>
+
+			<div class="col-md-8">
+
+				<table class="table table-dark">
+					<thead>
+						<tr>
+							<th scope="col">Codigo</th>
+							<th scope="col">Nombre</th>
+							<th scope="col">Nivel</th>
+							<th scope="col">Profesor</th>
+							<th>Opciones</th>
+						</tr>
+					</thead>
+					<tbody id="table_datos">
+					</tbody>
+				</table>
+
+				
+			</div>
+		</div>
+
+	</div>
+
+
+
+
 
 
 
 
 
 </body>
+
+
+
+
 <script src="https://code.jquery.com/jquery-3.7.1.js"
 	integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
 	crossorigin="anonymous"></script>
