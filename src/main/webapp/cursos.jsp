@@ -35,9 +35,11 @@
 							class="form-control" id="txtProfesor">
 					</div>
 
-					<button id="btnProcesar" type="button" class="btn btn-warning">Procesar</button>
-					<button id="btnLimpiar" type="button" class="btn btn-danger">Limpiar</button>
-					<button id="btnConsultar" type="button" class="btn btn-success">Consultar</button>
+					<button id="btnProcesar" type="button" class="btn btn-success">Guardar</button>
+					<button id="btnLimpiar" type="button" class="btn btn-danger">Cancelar</button>
+					<!--  
+						<button id="btnConsultar" type="button" class="btn btn-success">Consultar</button>
+					-->
 				</form>
 
 
@@ -90,7 +92,7 @@
 	integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
 	crossorigin="anonymous"></script>
 
-<script src="assets/js/cursos.js?v=1.30" type="text/javascript"></script>
+<script src="assets/js/cursos.js?v=1.60" type="text/javascript"></script>
 
 </html>
 
